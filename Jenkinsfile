@@ -13,12 +13,11 @@ pipeline{
                     
                 }
                 input {
-                    message "deploy to production?
+                    message "deploy to production"
                     id "simpule - input"
                 }
                 steps{
                 echo 'deploying'
             }
-          }
-      }
- }     
+        }
+    }     
